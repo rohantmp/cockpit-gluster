@@ -1,7 +1,7 @@
-# cockpit-gluster 
+# cockpit-gluster
 A GD2 based dashboard for gluster management.
 
-### Current state: 
+### Current state:
 - Working status panel for:
   - Monitoring peers
   - Monitoring volumes and bricks
@@ -41,7 +41,7 @@ make rpm
 ![Volume Modal Image](/screenshots/volume_modal.png?raw=true "Volume Modal")
 
 
-## Install GD2 and cockpit on some remote hosts:
+## Install Depenedencies, GD2 and cockpit on some remote hosts:
 
 As GD2 is in development, it is recommended to build it from the `master` branch and deploy it with an external etcd.
 
