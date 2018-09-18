@@ -31,7 +31,7 @@ make rpm
 ## Setup your brick servers with GD2:
 
 As GD2 is in development, it is recommended to build it from the `master` branch and deploy it with an external etcd.
-See [GD2 Resources](#GD2-Resources)
+See [GD2 Resources](#gd2-resources)
 
 ## Install cockpit-gluster
 ```
