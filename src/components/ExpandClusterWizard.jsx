@@ -38,7 +38,8 @@ class ExpandClusterWizard extends Component {
                   type: "replicate",
                   isArbiter: false,
                   brickDir: ""
-                }]
+                }];
+      this.title = "Create Volume";
     }
     else{
       console.debug("EC.expandCluster gM.hosts",this.state.glusterModel.hosts);
@@ -54,6 +55,7 @@ class ExpandClusterWizard extends Component {
                   isArbiter: false,
                   brickDir: "/gluster_bricks/data/data"
                 }];
+      this.title = "Expand Cluster";
     }
     this.defaultCacheMode = {
           cache: false,
