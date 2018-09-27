@@ -1,6 +1,9 @@
 # cockpit-gluster
-A GD2 based dashboard for gluster management.
-It runs on any of the brick servers (where glusterd2 is running).
+A [cockpit](https://github.com/cockpit-project/cockpit) plugin that provides a status view and volume actions for a gluster cluster with [glusterd2](https://github.com/gluster/glusterd2) based bricks.
+
+It runs on any of the brick nodes (where glusterd2 is running).
+
+
 
 ### Contents:
 - [Features](#features)
@@ -9,6 +12,7 @@ It runs on any of the brick servers (where glusterd2 is running).
 - [Setup GD2 environment](#setup-your-brick-servers-with-gd2)
 - [Install](#installing-on-one-of-the-gd2-nodes)
 - [Access](#browse-to-the-cockpit-port)
+- [Screenshots](#screenshots)
 
 ### Features:
 - Status panel for monitoring peers, volumes and bricks
@@ -48,7 +52,7 @@ sudo yum install -y python-requests python-jwt
 and install and start/enable glusterd2.
 
 As GD2 is in development, it is recommended to build it from the `master` branch and deploy it with an external etcd.
-See [GD2 Resources](#gd2-resources)
+See [GD2 Resources](#gd2-resources) for links to the project and an automated setup process.
 
 ## Installing (on one of the GD2 nodes)
 ### Install gluster-ansible and its dependencies:
@@ -93,4 +97,4 @@ GD2 developement guide: https://github.com/gluster/glusterd2/blob/master/doc/dev
 
 GD2 quickstart guide: https://github.com/gluster/glusterd2/blob/master/doc/quick-start-user-guide.md
 
-With my scripts (on CentOS VMs): https://github.com/rohantmp/gd2-testing
+A two command cluster setup with ansible and bash (for CentOS machines): https://github.com/rohantmp/gd2-testing
